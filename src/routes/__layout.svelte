@@ -29,6 +29,7 @@
 <div class="w-3/5 mx-auto">
     <Header {links} />
     <div class="mt-32">
+        <h1 class="text-7xl font-bold text-slate-700 mb-16">Adrien Milcent</h1>
         <slot />
     </div>
 </div>

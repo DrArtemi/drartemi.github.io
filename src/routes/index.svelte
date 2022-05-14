@@ -5,8 +5,7 @@
     };
 </script>
 
-<h1 class="text-7xl font-bold text-slate-700">Adrien Milcent</h1>
-<p class="text-2xl font-medium mt-16 text-slate-800 max-w-4xl text-justify">
+<p class="text-2xl font-medium text-slate-800 max-w-4xl text-justify">
     Hello ! I am a 🇫🇷 developer currently working at <a class="font-bold underline" target="_blank" href={currentCompany.url}>{currentCompany.name}</a> as a Machine Learning Engineer.
     <br>
     Curious about a lot of things I enjoy playing around with code, but above all I am pationate about Esports !
