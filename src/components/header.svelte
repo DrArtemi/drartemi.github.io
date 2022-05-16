@@ -12,7 +12,7 @@
     </div>
     <div class="links flex flex-row items-center">
         {#each links as link}
-            <a class="mx-2" href={link.url} target={link.newTab ? "_blank" : ""}><Icon iconName={link.name}/></a>
+            <a class="mx-2 w-8" href={link.url} target={link.newTab ? "_blank" : ""}><Icon iconName={link.name}/></a>
         {/each}
     </div>
 </nav>
