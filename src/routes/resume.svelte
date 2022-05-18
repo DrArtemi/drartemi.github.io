@@ -69,20 +69,20 @@
 </script>
 
 <div>
-    {#each experience as exp}
-    <div class="w-full mb-6">
+    {#each experience as exp, i}
+    <div class="w-full pb-6">
         <div class="flex flex-row items-end justify-between">
-            <h2 class="font-semibold text-4xl text-slate-800">
+            <h2 class="font-semibold text-4xl text-slate-800 dark:text-slate-300">
                 {#if exp.website}
                 <a href={exp.website} target="_blank">{exp.company}</a>
                 {:else}
                 {exp.company}
                 {/if}
             </h2>
-            <span class="font-medium text-right">{dateformat(new Date(exp.startDate), "mmm yyyy")} - {exp.endDate === "present" ? exp.endDate : dateformat(new Date(exp.endDate), "mmm yyyy")}</span>
+            <span class="text-slate-900 dark:text-slate-100 font-medium text-right">{dateformat(new Date(exp.startDate), "mmm yyyy")} - {exp.endDate === "present" ? exp.endDate : dateformat(new Date(exp.endDate), "mmm yyyy")}</span>
         </div>
-        <h3 class="text-2xl text-slate-700 mt-1">{exp.role}</h3>
-        <p class="mt-2 text-slate-900 text-lg">{exp.description}</p>
+        <h3 class="text-2xl text-slate-700 dark:text-slate-400 mt-1">{exp.role}</h3>
+        <p class="mt-2 text-slate-900 dark:text-slate-100 text-lg">{exp.description}</p>
         <div class="mt-2 flex flex-row justify-end">
             {#each exp.technologies as techno}
             <div class="w-6 ml-3 align-middle">

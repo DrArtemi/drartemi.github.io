@@ -5,7 +5,7 @@
     };
 </script>
 
-<p class="text-2xl font-medium text-slate-800 max-w-4xl text-justify">
+<p class="text-2xl font-medium text-slate-800 dark:text-slate-100 max-w-4xl text-justify">
     Hello ! I am a 🇫🇷 developer currently working at <a class="font-bold underline" target="_blank" href={currentCompany.url}>{currentCompany.name}</a> as a Machine Learning Engineer. I also develop personal projects on my free time, you can find some on my <a class="font-bold underline" target="_blank" href="https://github.com/DrArtemi">GitHub</a>.
     <br>
     Curious about a lot of things I enjoy playing around with code, but above all I am pationate about Esports !
