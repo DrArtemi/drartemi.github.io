@@ -1,0 +1,13 @@
+import{s as R,n as k}from"../chunks/scheduler.BfJEPAwo.js";import{S as M,i as G,e as r,t as s,s as L,c as l,a as B,h as i,r as E,d as S,j as O,b as u,f as W,l as n}from"../chunks/index.CIPCyhXh.js";import{b as Y}from"../chunks/paths.BQvUp1hx.js";const q="always",J=Object.freeze(Object.defineProperty({__proto__:null,trailingSlash:q},Symbol.toStringTag,{value:"Module"}));function z(P){let e,m,c,C="Freelance",p,a,f,h,y,b,g,x,_,v,o,A="resume",j,I,w;return{c(){e=r("p"),m=s("Hello ! I am a 🇫🇷 developer currently working as a "),c=r("span"),c.textContent=C,p=s(" Machine Learning, Software and Web Engineer. I also develop personal projects on my free time, you can find some on my "),a=r("a"),f=s("GitHub"),h=s(`.
+    `),y=r("br"),b=L(),g=r("br"),x=s(`
+    As a freelance developer I can carry out projects in various fields such as front-end, back-end, scraping and machine learning.
+    `),_=r("br"),v=s(`
+    You can find more information about my experience in my `),o=r("a"),o.textContent=A,j=s(`.
+    `),I=r("br"),w=s(`
+    I can easily adapt to new technologies so if you think I can help you in your projects don't hesitate to contact me !`),this.h()},l(d){e=l(d,"P",{class:!0});var t=B(e);m=i(t,"Hello ! I am a 🇫🇷 developer currently working as a "),c=l(t,"SPAN",{class:!0,"data-svelte-h":!0}),E(c)!=="svelte-1ym66yj"&&(c.textContent=C),p=i(t," Machine Learning, Software and Web Engineer. I also develop personal projects on my free time, you can find some on my "),a=l(t,"A",{class:!0,target:!0,href:!0});var H=B(a);f=i(H,"GitHub"),H.forEach(S),h=i(t,`.
+    `),y=l(t,"BR",{}),b=O(t),g=l(t,"BR",{}),x=i(t,`
+    As a freelance developer I can carry out projects in various fields such as front-end, back-end, scraping and machine learning.
+    `),_=l(t,"BR",{}),v=i(t,`
+    You can find more information about my experience in my `),o=l(t,"A",{class:!0,href:!0,"data-svelte-h":!0}),E(o)!=="svelte-1b77whe"&&(o.textContent=A),j=i(t,`.
+    `),I=l(t,"BR",{}),w=i(t,`
+    I can easily adapt to new technologies so if you think I can help you in your projects don't hesitate to contact me !`),t.forEach(S),this.h()},h(){u(c,"class","font-bold"),u(a,"class","font-bold underline"),u(a,"target","_blank"),u(a,"href",D),u(o,"class","font-bold underline"),u(o,"href",Y+"/resume"),u(e,"class","text-2xl font-medium text-slate-800 dark:text-slate-100 max-w-4xl text-justify")},m(d,t){W(d,e,t),n(e,m),n(e,c),n(e,p),n(e,a),n(a,f),n(e,h),n(e,y),n(e,b),n(e,g),n(e,x),n(e,_),n(e,v),n(e,o),n(e,j),n(e,I),n(e,w)},p:k,i:k,o:k,d(d){d&&S(e)}}}let D="https://github.com/DrArtemi";class K extends M{constructor(e){super(),G(this,e,null,z,R,{})}}export{K as component,J as universal};
