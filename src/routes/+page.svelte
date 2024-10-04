@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { base } from '$app/paths';
     let gitHub = "https://github.com/DrArtemi";
 </script>
 
@@ -7,6 +8,8 @@
     <br>
     <br>
     As a freelance developer I can carry out projects in various fields such as front-end, back-end, scraping and machine learning.
+    <br>
+    You can find more information about my experience in my <a class="font-bold underline" href="{base}/resume">resume</a>.
     <br>
     I can easily adapt to new technologies so if you think I can help you in your projects don't hesitate to contact me !
 </p>
