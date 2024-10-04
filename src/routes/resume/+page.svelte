@@ -1,20 +1,21 @@
 <script>
     import dateformat from "dateformat";
-    import IconHover from "../components/iconHover.svelte";
+    import IconHover from "../../lib/components/iconHover.svelte";
 
     let experience = [
         {
             company: "Delfox",
+            contract: "Permanent contract",
             website: "https://delfox.net/",
             startDate: "2018-09",
-            endDate: "present",
+            endDate: "2024-09",
             role: "Machine Learning Engineer",
-            description: "I am currently working on Deep Learning solutions for aeronautics, spatial and defense, using CNNs, object detection and reinforcement learning. I can't elaborate on the details of the projects for obvious reasons but we use common algorithms and I have a deep knowledge of the Ray library. I also applied models on drones to demonstrate our solutions in real life. At Delfox I lead the development of our internal product and multiple customer projects.",
+            description: "I worked on Deep Learning solutions for aeronautics, spatial and defense, using CNNs, object detection and reinforcement learning. I can't elaborate on the details of the projects for obvious reasons but we use common algorithms and I have a deep knowledge of the Ray library. I also applied models on drones to demonstrate our solutions in real life. At Delfox I led the development of our internal product and multiple projects for Ariane Group, Thales, Dassault and MBDA.",
             technologies: ["python", "c++", "tensorflow", "pytorch", "git"]
         },
         {
-            company: "Cezam - Freelance",
-            website: "http://ocr.cezam.io/",
+            company: "Cezam",
+            contract: "Freelance",
             startDate: "2020-12",
             endDate: "2021-05",
             role: "Machine Learning Engineer - Full-stack developer",
@@ -22,7 +23,8 @@
             technologies: ["python", "tensorflow", "react"]
         },
         {
-            company: "Esport Managment - Freelance",
+            company: "Esport Managment",
+            contract: "Freelance",
             website: "https://nicecactus.gg/",
             startDate: "2018-07",
             endDate: "2018-08",
@@ -32,6 +34,7 @@
         },
         {
             company: "uReflect",
+            contract: "Scholar",
             startDate: "2016-06",
             endDate: "2019-07",
             role: "Co-founder - Full-stack developer",
@@ -40,6 +43,7 @@
         },
         {
             company: "AppDrag",
+            contract: "Internship",
             website: "https://appdrag.com/",
             startDate: "2017-04",
             endDate: "2017-10",
@@ -49,7 +53,7 @@
         },
         {
             company: "LEXAN",
-            website: "https://lexan.digital/",
+            contract: "Internship",
             startDate: "2016-09",
             endDate: "2017-03",
             role: "Full-stack developer",
@@ -58,6 +62,7 @@
         },
         {
             company: "Jobijoba",
+            contract: "Internship",
             website: "https://www.jobijoba.com/",
             startDate: "2015-09",
             endDate: "2015-12",
@@ -72,12 +77,15 @@
     {#each experience as exp, i}
     <div class="w-full pb-6">
         <div class="flex flex-row items-end justify-between">
-            <h2 class="font-semibold text-4xl text-slate-800 dark:text-slate-300">
-                {#if exp.website}
-                <a href={exp.website} target="_blank">{exp.company}</a>
-                {:else}
-                {exp.company}
-                {/if}
+            <h2 class="font-semibold text-2xl text-slate-900 dark:text-slate-100">
+                <span class="text-4xl text-slate-800 dark:text-slate-300">
+                    {#if exp.website}
+                    <a href={exp.website} target="_blank">{exp.company}</a>
+                    {:else}
+                    {exp.company}
+                    {/if}
+                 </span>
+                - {exp.contract}
             </h2>
             <span class="text-slate-900 dark:text-slate-100 font-medium text-right">{dateformat(new Date(exp.startDate), "mmm yyyy")} - {exp.endDate === "present" ? exp.endDate : dateformat(new Date(exp.endDate), "mmm yyyy")}</span>
         </div>

@@ -1,6 +1,6 @@
 <script>
     import "../app.css";
-    import Header from "../components/header.svelte";
+    import Header from "../lib/components/header.svelte";
 
     const links = [
         {
@@ -19,13 +19,8 @@
             newTab: true
         },
         {
-            name: "Twitter",
-            url: "https://twitter.com/Dr4rtemi",
-            newTab: true
-        },
-        {
             name: "Email",
-            url: "mailto:adrien.milcent@outlook.com",
+            url: "mailto:adrien.milcent@grinalp.com",
             newTab: false
         }
     ];

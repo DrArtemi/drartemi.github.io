@@ -3,7 +3,7 @@
 
     export let links;
 
-    function toggleSkin(e) {
+    function toggleSkin() {
         window.document.body.classList.toggle('dark');
     }
 </script>
@@ -18,8 +18,8 @@
         {#each links as link}
             <a class="mx-2 w-8" href={link.url} target={link.newTab ? "_blank" : ""}><Icon iconName={link.name}/></a>
         {/each}
-        <div class="w-8 ml-6 flex flex-row items-center cursor-pointer" on:click={toggleSkin}>
+        <button class="w-8 ml-6 flex flex-row items-center cursor-pointer" on:click={toggleSkin}>
             <Icon iconName="lightDark"/>
-        </div>
+        </button>
     </div>
 </nav>

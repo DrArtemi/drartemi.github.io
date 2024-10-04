@@ -6,9 +6,9 @@
             url: "https://fuckjapscan.com/",
         },
         {
-            name: "FuryoSquad",
+            name: "FuryoSociety",
             image: "/furyosquad.png",
-            url: "https://furyosquad.com/",
+            url: "https://furyosociety.com/",
         },
         {
             name: "FuryoGang",
