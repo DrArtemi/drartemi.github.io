@@ -1,16 +1,17 @@
 <script>
+    import { base } from '$app/paths';
     import "../app.css";
     import Header from "../lib/components/header.svelte";
 
     const links = [
         {
             name: "Portfolio",
-            url: "/portfolio",
+            url: base + "/portfolio",
             newTab: false
         },
         {
             name: "Resume",
-            url: "/resume",
+            url: base + "/resume",
             newTab: false
         },
         {

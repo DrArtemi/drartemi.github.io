@@ -1,18 +1,20 @@
 <script>
+    import { base } from '$app/paths';
+
     let websites = [
         {
             name: "FuckJapscan",
-            image: "/fuckjapscan.png",
+            image: base + "/fuckjapscan.png",
             url: "https://fuckjapscan.com/",
         },
         {
             name: "FuryoSociety",
-            image: "/furyosquad.png",
+            image: base + "/furyosquad.png",
             url: "https://furyosociety.com/",
         },
         {
             name: "FuryoGang",
-            image: "/furyogang.png",
+            image: base + "/furyogang.png",
             url: "https://lecture.furyogang.com/",
         },
     ]
